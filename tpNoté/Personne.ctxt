@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Personne
+comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ Personne\ ici.\r\n\r\n\ @author\ (votre\ nom)\r\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\r\n
+comment1.params=nom\ age
+comment1.target=Personne(java.lang.String,\ int)
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ Personne\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNom()
+comment2.text=\r\n\ Un\ exemple\ de\ m\u00E9thode\ -\ remplacez\ ce\ commentaire\ par\ le\ v\u00F4tre\r\n\r\n\ @param\ \ y\ \ \ le\ param\u00E8tre\ de\ la\ m\u00E9thode\r\n\ @return\ \ \ \ \ la\ somme\ de\ x\ et\ de\ y\r\n
+comment3.params=nom
+comment3.target=void\ setNom(java.lang.String)
+comment4.params=
+comment4.target=int\ getAge()
+comment5.params=age
+comment5.target=void\ setAge(int)
+comment6.params=boutique
+comment6.target=boolean\ isGerant(Boutique)
+numComments=7

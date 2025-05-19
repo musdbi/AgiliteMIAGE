@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Boutique
+comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ Boutique\ ici.\r\n\r\n\ @author\ (votre\ nom)\r\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\r\n
+comment1.params=nom\ chiffreAffaires
+comment1.target=Boutique(java.lang.String,\ double)
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ Boutique\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNom()
+comment3.params=nom
+comment3.target=void\ setNom(java.lang.String)
+comment4.params=
+comment4.target=double\ getChiffresAffaires()
+comment5.params=chiffreAffaires
+comment5.target=void\ setChiffresAffaires(double)
+comment6.params=
+comment6.target=Personne\ getGerant()
+comment7.params=gerant
+comment7.target=void\ setGerant(Personne)
+comment8.params=chiffre
+comment8.target=void\ realiserTransac(double)
+numComments=9
