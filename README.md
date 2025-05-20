@@ -1,60 +1,96 @@
-# De la Modélisation à la Réalité : L'Histoire d'Élégance Parisienne
+# À la découverte des objets avec la Boutique Enchantée
 
-## I. Première itération - BlueJ
+## Un tutoriel interactif d'introduction à la programmation orientée objet avec Java et BlueJ
+
+Bienvenue, apprenti développeur ! Vous venez d'hériter d'une boutique magique dans une ruelle du vieux Paris. Cette boutique, <b>L'Échoppe Enchantée</b>, est connue pour vendre des articles aux propriétés mystérieuses. Mais il y a un problème : vous n'avez aucune idée de comment la gérer !
+
+Heureusement, un vieux grimoire informatique vous attend sur le comptoir poussiéreux. Il contient le savoir nécessaire pour créer un système de gestion à l'aide d'une technologie appelée <b>programmation orientée objet.</b> En suivant ce tutoriel, vous apprendrez à manipuler votre boutique et ses produits magiques dans le monde virtuel, avant de vous lancer dans le monde réel.
+
+Prêt pour l'aventure ? Allons-y !
+
+## Préparation de l'atelier magique
 
 ### 1. Télécharger BlueJ
 
-<b>Chirine et Mustapha</b>, deux diplômés en mode, utilisent BlueJ pour planifier leur future boutique parisienne, <b>Élégance Parisienne.</b>
-![0 1](https://github.com/user-attachments/assets/2d97a722-d79f-4e10-86bb-ce424f7239ea)
+Rendez-vous sur le site mystique http://www.bluej.org/ et téléchargez l'outil BlueJ.
+PHOTO
 
 ### 2. Installer BlueJ
 
-Ils installent le logiciel comme première étape concrète de leur projet entrepreneurial, voyant dans cet outil une façon structurée d'organiser leur vision commerciale.
+Installez-le en suivant les instructions du grimoire (assistant d’installation).
 
 ### 3. Créer un nouveau projet
 
-Ils créent le projet <b>EleganceParisienne</b>, établissant ainsi la fondation virtuelle de leur future enseigne dans le Marais.
-![0 2](https://github.com/user-attachments/assets/041380a6-d776-46f5-91ad-80ac597f9dc2)
+Une fois l'atelier préparé, créez un nouvel espace de travail :
+- Lancez BlueJ.
+- Cliquez sur "Projet" → "Nouveau projet".
+- Nommez votre projet <b>BoutiqueEnchantee</b> et choisissez un emplacement.
+- Cliquez sur <b>Créer.</b>
+PHOTO
+
+## Création de notre première entité magique - la classe Boutique.
 
 ### 4. Créer votre classe fétiche
-
-La classe <b> Boutique </b>  devient la représentation numérique de leur concept commercial, intégrant les éléments essentiels à leur future activité.
-![1](https://github.com/user-attachments/assets/10517072-faa7-4f7f-9a96-b9b5a835ae2a)
+Dans le monde de la programmation, les objets commencent sous forme de <b>classes</b> - des plans qui définissent leurs caractéristiques.
+Dans la fenêtre principale de BlueJ, cliquez sur "Nouvelle classe".
+Une magie opère ! Nommez cette classe <b>Boutique</b> et sélectionnez "Class" comme type.
+Cliquez sur "OK" pour invoquer cette nouvelle entité.
+PHOTO
 
 ### 5. Compiler la classe
 
-La compilation réussie valide leur modèle commercial de base, confirmant la viabilité technique de leur structure.
-![2](https://github.com/user-attachments/assets/dc1e7ec8-b932-4340-9e14-70059144b239)
-![3](https://github.com/user-attachments/assets/90e6f140-6109-4acf-ab0d-8cefeb6cd0d6)
+Maintenant, compilons notre création pour lui donner vie :
+Cliquez sur "Compiler" dans la barre d'outils.
+PHOTO
 
-### 6. Instancier la classe
+### 6. Invocation - Créer une instance de notre boutique
 
-En créant une première instance, ils matérialisent virtuellement <b> Élégance Parisienne </b>  qui est la première étape avant l'ouverture physique.
+Notre plan est prêt, mais il nous faut maintenant créer une boutique réelle - ce que les mages de la programmation appellent une "instance" :
+- Faites un clic droit sur la classe "Boutique" dans le diagramme.
+- Sélectionnez "new Boutique()" - l'incantation qui crée un nouvel objet.
+- Donnez vie à votre boutique en la nommant "echoppe".
+- Cliquez sur "OK".
+PHOTO
 
-### 7. Ajouter 2 attributs, accesseurs et une méthode de manipulation
+### 7. Enchantement - Doter notre boutique de propriétés magiques
 
-Ils définissent les attributs essentiels : `nom` pour l'identité de marque et `chiffreAffaires` pour le suivi financier, ainsi que la méthode `realiserTransac()` pour modéliser les ventes.
+Ouvrons le grimoire (éditeur de code) et ajoutons des propriétés magiques à notre boutique :
+PHOTO
+Compilez à nouveau votre création en cliquant sur "Compiler". Votre boutique possède maintenant des propriétés et des pouvoirs !
 
-### 8. Instancier à nouveau et tester interactivement
 
-Ils simulent une première vente de 2500€ et vérifient que le système comptable fonctionne correctement, projetant déjà leur future rentabilité.
+### 8. Expérimentation - Tester les pouvoirs de notre boutique
+Il est temps d'explorer les capacités de notre création :
+- Supprimez l'ancienne instance (clic droit sur l'objet → Remove)
+- Créez une nouvelle boutique : clic droit sur la classe → "new Boutique("Artefacts & Sortilèges", 500.0)"
+- Inspectez votre boutique magique : clic droit sur l'objet → "Inspect"
+- Admirez ses propriétés : nom = "Artefacts & Sortilèges" et chiffreAffaires = 500.0
+- Utilisez son pouvoir de vente : clic droit sur l'objet → realiserTransac(150.0)
+Inspectez à nouveau - le chiffre d'affaires est montée à 650.0 !
 
-### 9. Tester unitairement la classe
 
-Ils mettent en place des tests rigoureux pour s'assurer de la fiabilité de leurs opérations financières, élément crucial dans l'industrie compétitive de la mode.
+### 9. Épreuves magiques - Tester notre boutique
 
-### 10. Ajouter une seconde classe avec association unidirectionnelle
+Les grands mages le savent : toute création magique doit être testée pour s'assurer de sa fiabilité. Créons un rituel de test :
+- Faites un clic droit sur la classe "Boutique" dans le diagramme
+- Sélectionnez "Créer une classe de test"
+- Nommez-la "BoutiqueTest" et cliquez sur "OK"
+- Maintenant, écrivons nos tests :
+PHOTO
+Exécutez le test en faisant un clic droit sur la classe "BoutiqueTest" et en sélectionnant "Test All".
+Magnifique ! Notre boutique fonctionne parfaitement.
 
-La classe <b>Personne </b> est créée avec une relation unidirectionnelle vers Boutique, établissant le concept de gérance dans leur modèle organisationnel.
+## L'extension de notre univers magique.
 
-### 11. Ajouter une méthode collaborative
 
-Ils implémentent la méthode `isGerant()` qui vérifie si une Personne est le gérant d'une Boutique, posant les bases de la structure décisionnelle.
+### 11. Création d'une nouvelle entité - la classe Article.
 
-### 12. Instancier, relier et sauvegarder dans la fixture
+Notre boutique a besoin d'articles magiques à vendre. Créons-les :
+Créez une nouvelle classe nommée "Article"
+Ajoutez ce code enchanteur :
+PHOTO
 
-Deux instances de Personne sont créées: <b>Mustapha</b> et <b> Chirine </b>, ainsi qu'une instance de Boutique. Pour les tests, Mustapha se définit comme gérant.
+### 12. Le test des interactions entre nos entités magiques
 
-### 13. Créer une méthode de test pour la collaboration
-
-Un test est mis en place pour valider la relation gérant-boutique, confirmant le rôle de Mustapha dans la structure de test.
+Créons maintenant un rituel pour tester l'interaction entre notre boutique et ses articles :
+PHOTO
