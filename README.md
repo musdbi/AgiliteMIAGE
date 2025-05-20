@@ -13,11 +13,12 @@ Prêt pour l'aventure ? Allons-y !
 ### 1. Télécharger BlueJ
 
 Rendez-vous sur le site mystique http://www.bluej.org/ et téléchargez l'outil BlueJ.
-PHOTO
+![1 (2)](https://github.com/user-attachments/assets/047ce921-a1c5-4f17-8a54-cc571f44344b)
 
 ### 2. Installer BlueJ
 
 Installez-le en suivant les instructions du grimoire (assistant d’installation).
+
 
 ### 3. Créer un nouveau projet
 
@@ -26,7 +27,8 @@ Une fois l'atelier préparé, créez un nouvel espace de travail :
 - Cliquez sur "Projet" → "Nouveau projet".
 - Nommez votre projet <b>BoutiqueEnchantee</b> et choisissez un emplacement.
 - Cliquez sur <b>Créer.</b>
-PHOTO
+![2 (2)](https://github.com/user-attachments/assets/203079a1-a664-481c-bb4d-9b065c4f785e)
+
 
 ## Création de notre première entité magique - la classe Boutique.
 
@@ -35,13 +37,13 @@ Dans le monde de la programmation, les objets commencent sous forme de <b>classe
 Dans la fenêtre principale de BlueJ, cliquez sur "Nouvelle classe".
 Une magie opère ! Nommez cette classe <b>Boutique</b> et sélectionnez "Class" comme type.
 Cliquez sur "OK" pour invoquer cette nouvelle entité.
-PHOTO
+![3 (2)](https://github.com/user-attachments/assets/4a3d22bc-162b-4106-925e-44e5e4d655e3)
 
 ### 5. Compiler la classe
 
 Maintenant, compilons notre création pour lui donner vie :
 Cliquez sur "Compiler" dans la barre d'outils.
-PHOTO
+![4 (2)](https://github.com/user-attachments/assets/4a522d01-9f10-4137-a6d0-0a9776cb4b20)
 
 ### 6. Invocation - Créer une instance de notre boutique
 
@@ -50,12 +52,14 @@ Notre plan est prêt, mais il nous faut maintenant créer une boutique réelle -
 - Sélectionnez "new Boutique()" - l'incantation qui crée un nouvel objet.
 - Donnez vie à votre boutique en la nommant "echoppe".
 - Cliquez sur "OK".
-PHOTO
+![5 (2)](https://github.com/user-attachments/assets/7b8fd12c-ca10-4cc8-bbf6-05cfc237b7c0)
 
 ### 7. Enchantement - Doter notre boutique de propriétés magiques
 
 Ouvrons le grimoire (éditeur de code) et ajoutons des propriétés magiques à notre boutique :
-PHOTO
+![6](https://github.com/user-attachments/assets/42e57922-e6ee-4c94-b90b-227f52395fab)
+![7](https://github.com/user-attachments/assets/b7699ad3-fde8-4d12-a12e-b7edca98a903)
+
 Compilez à nouveau votre création en cliquant sur "Compiler". Votre boutique possède maintenant des propriétés et des pouvoirs !
 
 
@@ -63,34 +67,38 @@ Compilez à nouveau votre création en cliquant sur "Compiler". Votre boutique p
 Il est temps d'explorer les capacités de notre création :
 - Supprimez l'ancienne instance (clic droit sur l'objet → Remove)
 - Créez une nouvelle boutique : clic droit sur la classe → "new Boutique("Artefacts & Sortilèges", 500.0)"
+![8](https://github.com/user-attachments/assets/106adfa3-80df-4823-be2b-cd493ae5240a)
 - Inspectez votre boutique magique : clic droit sur l'objet → "Inspect"
 - Admirez ses propriétés : nom = "Artefacts & Sortilèges" et chiffreAffaires = 500.0
 - Utilisez son pouvoir de vente : clic droit sur l'objet → realiserTransac(150.0)
+![9](https://github.com/user-attachments/assets/73315442-0d2d-489b-bd7c-d62e17edc850)
 Inspectez à nouveau - le chiffre d'affaires est montée à 650.0 !
-
+![10](https://github.com/user-attachments/assets/3885e54d-9a0e-4863-9792-c745524691c1)
 
 ### 9. Épreuves magiques - Tester notre boutique
 
 Les grands mages le savent : toute création magique doit être testée pour s'assurer de sa fiabilité. Créons un rituel de test :
 - Faites un clic droit sur la classe "Boutique" dans le diagramme
 - Sélectionnez "Créer une classe de test"
-- Nommez-la "BoutiqueTest" et cliquez sur "OK"
+- Nommez-la "testBoutique" et cliquez sur "OK"
 - Maintenant, écrivons nos tests :
-PHOTO
+  ![11](https://github.com/user-attachments/assets/2835be36-ac1b-4375-9ef9-0a75a065f727)
 Exécutez le test en faisant un clic droit sur la classe "BoutiqueTest" et en sélectionnant "Test All".
+![12](https://github.com/user-attachments/assets/60d1ab30-8443-4b3c-a243-c8090e97d155)
 Magnifique ! Notre boutique fonctionne parfaitement.
 
 ## L'extension de notre univers magique.
-
 
 ### 11. Création d'une nouvelle entité - la classe Article.
 
 Notre boutique a besoin d'articles magiques à vendre. Créons-les :
 Créez une nouvelle classe nommée "Article"
 Ajoutez ce code enchanteur :
-PHOTO
+![13](https://github.com/user-attachments/assets/710ddb7a-b98e-4740-9623-2d39f7d3cc07)
+![14](https://github.com/user-attachments/assets/a076d818-7702-4cd1-adfd-3ca5ab636d03)
+Ajoutez un objet Article à votre boutique pour associer Boutique unilatéralement à Article.
+![15](https://github.com/user-attachments/assets/6592d756-b972-47f6-b882-772fae9fc005)
 
 ### 12. Le test des interactions entre nos entités magiques
 
 Créons maintenant un rituel pour tester l'interaction entre notre boutique et ses articles :
-PHOTO
