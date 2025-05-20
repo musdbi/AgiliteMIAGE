@@ -4,7 +4,7 @@
 
 ### 1. Télécharger BlueJ
 
-Chirine et Mustapha, deux diplômés en mode, utilisent BlueJ pour planifier leur future boutique parisienne, <b>Élégance Parisienne.</b>
+<b>Chirine et Mustapha</b>, deux diplômés en mode, utilisent BlueJ pour planifier leur future boutique parisienne, <b>Élégance Parisienne.</b>
 
 ### 2. Installer BlueJ
 
