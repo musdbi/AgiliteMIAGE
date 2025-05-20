@@ -112,7 +112,7 @@ Ajoutez ce code enchanteur :
 
 ![13](https://github.com/user-attachments/assets/710ddb7a-b98e-4740-9623-2d39f7d3cc07)
 
-![14](https://github.com/user-attachments/assets/a076d818-7702-4cd1-adfd-3ca5ab636d03)
+![14](https://github.com/user-attachments/assets/38fe484e-49b5-4101-909d-ec597acc8b1b)
 
 Ajoutez un objet Article à votre boutique pour associer Boutique unilatéralement à Article.
 
