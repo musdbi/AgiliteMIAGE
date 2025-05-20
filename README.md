@@ -110,9 +110,9 @@ Notre boutique a besoin d'articles magiques à vendre. Créons-les :
 Créez une nouvelle classe nommée "Article"
 Ajoutez ce code enchanteur :
 
-![13](https://github.com/user-attachments/assets/710ddb7a-b98e-4740-9623-2d39f7d3cc07)
+![test](https://github.com/user-attachments/assets/65c70751-089f-4e11-b0dc-2345d2ac7fcd)
 
-![14](https://github.com/user-attachments/assets/38fe484e-49b5-4101-909d-ec597acc8b1b)
+![test2](https://github.com/user-attachments/assets/3c46b47c-f6ba-427a-a0a5-5c943108f788)
 
 Ajoutez un objet Article à votre boutique pour associer Boutique unilatéralement à Article.
 
