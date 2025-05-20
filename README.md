@@ -121,3 +121,9 @@ Ajoutez un objet Article à votre boutique pour associer Boutique unilatéraleme
 ### 12. Le test des interactions entre nos entités magiques
 
 Créons maintenant un rituel pour tester l'interaction entre notre boutique et ses articles :
+
+![16](https://github.com/user-attachments/assets/5927cbc7-61dc-4f87-bdb7-cca4ba616728)
+
+![17](https://github.com/user-attachments/assets/f0cd699f-2bfa-4296-9387-c0f8a1f7af86)
+
+
