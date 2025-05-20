@@ -13,7 +13,7 @@ Ils installent le logiciel comme première étape concrète de leur projet entre
 
 ### 3. Créer un nouveau projet
 
-Ils créent le projet "EleganceParisienne", établissant ainsi la fondation virtuelle de leur future enseigne dans le Marais.
+Ils créent le projet <b>EleganceParisienne</b>, établissant ainsi la fondation virtuelle de leur future enseigne dans le Marais.
 ![0 2](https://github.com/user-attachments/assets/041380a6-d776-46f5-91ad-80ac597f9dc2)
 
 ### 4. Créer votre classe fétiche
