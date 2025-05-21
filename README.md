@@ -126,4 +126,39 @@ Créons maintenant un rituel pour tester l'interaction entre notre boutique et s
 
 ![17](https://github.com/user-attachments/assets/f0cd699f-2bfa-4296-9387-c0f8a1f7af86)
 
+### 13. Création d'une relation bidirectionnelle entre boutique et articles
+
+Pour qu'une boutique puisse gérer plusieurs articles, et que chaque article connaisse sa boutique, nous devons modifier nos classes pour créer une relation bidirectionnelle parfaite :
+Modifions la classe Article :
+
+![18](https://github.com/user-attachments/assets/2176ec8d-8d1a-46ae-ad68-6b8ea07f9ff6)
+
+Et modifions la classe Boutique pour qu'elle gère une collection d'articles :
+
+![19](https://github.com/user-attachments/assets/99224f58-49d9-4e4e-9658-91a2831c2797)
+
+![20](https://github.com/user-attachments/assets/51c3aa69-ca19-48db-bfc2-b3c0d5c2c9a2)
+
+![21](https://github.com/user-attachments/assets/b0cd19d8-b4b8-43fa-a12e-a063f921ee56)
+
+Testons notre implémentation dans un nouveau scénario interactif :
+- Créez une boutique : Boutique magasin = new Boutique("Potions & Enchantements", 500.0);
+- Créez plusieurs articles : 
+-  Article baguette = new Article("Baguette en bois de rose", 150.0);
+-  Article grimoire = new Article("Grimoire des éléments", 200.0);
+-  Article amulette = new Article("Amulette lunaire", 80.0);
+
+- Ajoutez-les à la boutique : 
+-  magasin.ajouterArticle(baguette);
+-  magasin.ajouterArticle(grimoire);
+-  magasin.ajouterArticle(amulette);
+
+
+
+Affichez l'inventaire : magasin.afficherInventaire();
+Vérifiez la relation bidirectionnelle : baguette.getBoutique().getNom()
+
+
+
+
 
