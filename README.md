@@ -158,7 +158,23 @@ Testons notre implémentation dans un nouveau scénario interactif :
 - Affichez l'inventaire : magasin.afficherInventaire();
 - Vérifiez la relation bidirectionnelle : baguette.getBoutique().getNom()
 
+### 14. Amélioration par refactoring
 
+Rendons notre code encore plus élégant en renommant nos méthodes.
 
+![22](https://github.com/user-attachments/assets/8e09a47e-d424-4a66-a344-d38212c6fbdf)
 
+### 15. Inspiration "Test Infected" - Amélioration des tests
+
+Améliorons nos tests pour rendre notre système encore plus robuste :
+
+![23](https://github.com/user-attachments/assets/c949b84a-654e-4254-af3b-7e3a8e0cce7a)
+
+![24](https://github.com/user-attachments/assets/4be2db41-19a7-4005-93b0-97e054d3a860)
+
+![25](https://github.com/user-attachments/assets/0884b66c-00ea-4712-b593-7d15c5895bd5)
+
+![26](https://github.com/user-attachments/assets/53f2eccf-8d91-4bb4-a27c-80ec50615894)
+
+Félicitations, apprenti développeur! Vous avez créé avec succès un système magique complet pour gérer votre boutique enchantée.
 
