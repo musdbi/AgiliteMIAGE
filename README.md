@@ -143,20 +143,20 @@ Et modifions la classe Boutique pour qu'elle gère une collection d'articles :
 
 Testons notre implémentation dans un nouveau scénario interactif :
 - Créez une boutique : Boutique magasin = new Boutique("Potions & Enchantements", 500.0);
-- Créez plusieurs articles : 
--  Article baguette = new Article("Baguette en bois de rose", 150.0);
--  Article grimoire = new Article("Grimoire des éléments", 200.0);
--  Article amulette = new Article("Amulette lunaire", 80.0);
+- Créez plusieurs articles :
+    1. Article baguette = new Article("Baguette en bois de rose", 150.0);
+    2. Article grimoire = new Article("Grimoire des éléments", 200.0);
+    3. Article amulette = new Article("Amulette lunaire", 80.0);
 
 - Ajoutez-les à la boutique : 
--  magasin.ajouterArticle(baguette);
--  magasin.ajouterArticle(grimoire);
--  magasin.ajouterArticle(amulette);
+    1. magasin.ajouterArticle(baguette);
+    2. magasin.ajouterArticle(grimoire);
+    3. magasin.ajouterArticle(amulette);
 
 
 
-Affichez l'inventaire : magasin.afficherInventaire();
-Vérifiez la relation bidirectionnelle : baguette.getBoutique().getNom()
+- Affichez l'inventaire : magasin.afficherInventaire();
+- Vérifiez la relation bidirectionnelle : baguette.getBoutique().getNom()
 
 
 
