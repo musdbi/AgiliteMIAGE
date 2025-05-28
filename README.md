@@ -181,7 +181,8 @@ Félicitations, apprenti développeur! Vous avez créé avec succès un système
 ## Et l'agilité dans tout ça ? 
 
 <b>Concept :</b> Chaque boutique appartient désormais à un pays dirigé par un président. Le pattern Composite organise la hiérarchie Pays → Boutique → Articles.
-<b>Solution ?</b> Pattern Composite : L'interface EntiteEconomique traitera uniformément les classes Pays/Boutique/Article. 
+
+<b>La Solution ?</b> Le Pattern Composite : L'interface EntiteEconomique traitera uniformément les classes Pays/Boutique/Article. 
 
 Le Storytelling est conservé : Chaque article porte le sceau "Forgé au {NomDuPays} sous le mandat de {NomDuPrésident}", la boutique appartient au royaume, et le pattern Composite permet de calculer la valeur économique totale du pays → boutiques → articles.
 Une Fusion parfaite avec seulement 3 lignes ajoutées au total ! L'agilité à son paroxysme ! 
