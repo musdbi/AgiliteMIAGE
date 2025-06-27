@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=TestNationsEnchantees
+comment0.text=\r\n\ Classe\ de\ test\ pour\ le\ storytelling\ "Nations\ Enchant\u00E9es"\r\n\ Compatible\ avec\ BlueJ\ et\ JUnit\ 4\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment10.params=
+comment10.target=void\ testPlusieursRoyaumes()
+comment11.params=
+comment11.target=void\ testCoherenceEconomiqueRoyaume()
+comment2.params=
+comment2.target=void\ tearDown()
+comment3.params=
+comment3.target=void\ testCreationRoyaume()
+comment4.params=
+comment4.target=void\ testBoutiqueAppartientPays()
+comment5.params=
+comment5.target=void\ testArticlesForgesAuRoyaume()
+comment6.params=
+comment6.target=void\ testValeurTotaleRoyaume()
+comment7.params=
+comment7.target=void\ testTransactionMagique()
+comment8.params=
+comment8.target=void\ testRelationBidirectionnelleBoutiqueArticle()
+comment9.params=
+comment9.target=void\ testDetailsPaysPolitiques()
+numComments=12
